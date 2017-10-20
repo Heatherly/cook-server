@@ -5,7 +5,7 @@ const env = require('env2')('./.env');
 const sendemail = require('sendemail')
 const email = sendemail.email
 const set_template_directory = sendemail.set_template_directory
-set_template_directory('./templates')
+set_template_directory('../templates')
 
 
 var path = require('path');
